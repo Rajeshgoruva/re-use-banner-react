@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+div {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 10px 0px;
+  border-radius: 20px;
+}
+ul {
+  background-color: white;
+  width: 1200px;
+}
+* {
+  border: 0px;
+  box-sizing: 0px;
+}
+
+@media (max-width: 756px) {
+  ul {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+  }
+}
+
+/* Write your code here. */

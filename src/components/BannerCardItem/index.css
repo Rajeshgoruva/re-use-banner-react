@@ -1,0 +1,54 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+li {
+  list-style-type: none;
+  flex-grow: inherit;
+}
+.container {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  height: 300px;
+}
+h1 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #326a9d;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  color: #64748b;
+}
+button {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  color: #326a9d;
+  background-color: transparent;
+  border: 1px snow #326a9d;
+  border-radius: 5px;
+  padding: 5px;
+}
